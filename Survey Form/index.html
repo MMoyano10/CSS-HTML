@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Survey form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+    <fieldset>
+        <label id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+        <label id="email-label">Email<input type="email" id="email" placeholder="Enter your email, for example example@domain.com" required></label>
+        <label id="number-label">Age(opcional)<input type="number" min="13" max="110" id="number" placeholder="Example: 18"></label>
+        <label>Which option best describes your current role?</label>
+        <select id="dropdown">
+            <option value="1">Select current role</option>
+            <option value="2">Student</option>
+            <option value="3">Full time job</option>
+            <option value="4">Full time learner</option>
+            <option value="5">Prefer not to say</option>
+            <option value="6">Other</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <label><input type="radio" name="attribute" class="inline" value="definitely"> Definitely</label>
+        <label ><input type="radio" name="attribute" class="inline" value="maybe">Maybe</label>
+        <label ><input type="radio" name="attribute" class="inline" value="no_sure">No sure</label>
+    </fieldset>
+    <fieldset>
+        <label>What is your favorite feature of freeCodeCamp?</label>
+        <select id="dropdown">
+            <option value="1">Select and option</option>
+            <option value="2">Challanges</option>
+            <option value="3">Projects</option>
+            <option value="4">Community</option>
+            <option value="5">Open Source</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label>What would you like to see improved? (Check all that apply)</label>
+        <label><input type="checkbox" value="first_checkbox">Front-end Projects</label>
+        <label><input type="checkbox" value="second_checkbox">Back-end Projects</label>
+        <label><input type="checkbox" value="third_checkbox">Data Visualization</label>
+        <label><input type="checkbox" value="fourth_checkbox">Challenges</label>
+        <label><input type="checkbox" value="fifth_checkbox">Open Source Community</label>
+        <label><input type="checkbox" value="sixth_checkbox">Gitter help rooms</label>
+        <label><input type="checkbox" value="seventh_checkbox">Videos</label>
+        <label><input type="checkbox" value="eighth_checkbox">City Meetups</label>
+        <label><input type="checkbox" value="nineth_checkbox">Wiki</label>
+        <label><input type="checkbox" value="tenth_checkbox">Forum</label>
+        <label><input type="checkbox" value="eleventh_checkbox">Additional Courses</label>
+    </fieldset>
+    
+    <fieldset>
+        <label>Provide a bio:
+            <textarea name="bio" rows="4" cols="40" placeholder="I like coding on the beach..."></textarea>
+        </label>
+    </fieldset>
+    <input type="submit" id="submit" value="Submit">
+    </form>
+    
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Titan One', cursive;
+    text-align: center;
+}
+body{
+    background-image: url(https://wallpaper.dog/large/5548541.jpg);
+    padding: 5px;
+
+}
+/*TODO: Create stylo for div*/
+.menu{
+    background-color:azure;
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.price{
+    text-align: center;
+    width: 25%;
+}
+.drinks,.food{
+    text-align: left;
+    width: 75%;
+}
+.item p{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.est{
+    font-family: 'Yellowtail', cursive;
+    font-size: larger;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: gold;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+}

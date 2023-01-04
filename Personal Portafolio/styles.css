@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+#principal-name{
+    font-family: 'Alegreya', serif;
+    font-size: 100px;
+    color:white;
+    height: 100px;
+    width: 100px;
+    
+    
+}
